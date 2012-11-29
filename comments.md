@@ -51,8 +51,8 @@
 3. Simply repeat what the code says if they code is obvious– it causes clutter
 
 	BAD
-	// get the terms of the taxonomy
 	```php
+	// get the terms of the taxonomy
   	$terms = get_terms($taxonomyname, array('hide_empty' => 0));
 	```
   	GOOD
