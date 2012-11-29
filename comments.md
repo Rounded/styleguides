@@ -44,8 +44,6 @@
 	  ```ruby
 	  paid_users = User.paid
 	```
-
-
 Comments should NOT:
 1. Explain functions or methods that are part of the language and or framework
 2. Be lengthy or cumbersome to read.
@@ -60,4 +58,3 @@ Comments should NOT:
   	```php
 	$terms = get_terms($taxonomyname, array('hide_empty' => 0));
 	```
-4. 
