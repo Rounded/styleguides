@@ -32,9 +32,10 @@
 3. Explain what the code is doing. But, only when its non-obvious / needed for clarification.
 
 	  BAD
+	  ```ruby
 	  # get all the paid users
 	  paid_users = User.paid
-
+	  ```
 	  GOOD
 	  paid_users = User.paid
 
