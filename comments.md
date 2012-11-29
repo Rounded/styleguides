@@ -44,7 +44,7 @@
 	  ```ruby
 	  paid_users = User.paid
 	```
-Comments should NOT:
+## Comments should NOT:
 1. Explain functions or methods that are part of the language and or framework
 2. Be lengthy or cumbersome to read.
 3. Simply repeat what the code says if they code is obvious– it causes clutter
