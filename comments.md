@@ -15,7 +15,7 @@
 	  	u.password = Digest::MD5.new()
 	  end
 	```
-2. Be well formatted, in clear english, and consistent in your patterns
+2. Be well formatted, in plain english, and consistent
 
 	  BAD
 	  ```ruby
@@ -44,18 +44,10 @@
 	  ```ruby
 	  paid_users = User.paid
 	```
-	
+
+4. Assume that the reader is a technical person
+
+
 ## Comments should NOT:
 1. Explain functions or methods that are part of the language and or framework
 2. Be lengthy or cumbersome to read.
-3. Simply repeat what the code says if they code is obvious– it causes clutter
-
-	BAD
-	```php
-	// get the terms of the taxonomy
-  	$terms = get_terms($taxonomyname, array('hide_empty' => 0));
-	```
-  	GOOD
-  	```php
-	$terms = get_terms($taxonomyname, array('hide_empty' => 0));
-	```
