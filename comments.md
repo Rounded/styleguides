@@ -51,7 +51,7 @@
 	BAD
 	```ruby
 	# This will find the first fish in the barrel sorted by age
-	found = Fish.all.sort_by { |x| x.age }
+	jigglypuff = Fish.all.sort_by { |x| x.age }
 	```
 	GOOD
 	```ruby
