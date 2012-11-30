@@ -46,7 +46,16 @@
 	```
 
 4. Assume that the reader is a technical person
+5. Attempt to refractor your code in a way that will make comments unncecessary
 
+	BAD
+	```ruby
+	# This will find the first fish in the barrel sorted by age
+	found = Fish.all.sort_by { |x| x.age }
+	```
+	GOOD
+	```ruby
+	youngest_fish = Fish.all.sort_by { |f| f.age }
 
 ## Comments should NOT:
 1. Explain functions or methods that are part of the language and or framework
