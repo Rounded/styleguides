@@ -12,6 +12,12 @@
 	# 7/26/12 BW - CURL requests now use Facebook Open Graph API to pull Fanpage feeds. http://developers.facebook.com
 	```
 
+## What to do when you find a file without comments
+1. Breathe.
+2. See if you can (quickly) understand the code.
+3. If it's obviously complicated, ask the original writer to comment it for you.
+4. If it's simple, comment it yourself, or refractor the code to make it more understandable.
+
 ## Comments should:
 1. Explain the code in "non-code" terms, and (if possible) what it's accomplishing in the grand scheme of things
 
