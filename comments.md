@@ -1,16 +1,6 @@
-# Commenting and Headers Logs
+# Commenting and Git Commits
 
-## Header Logs
-1. After any major changes are made to a file, place a log of the date, your initials, and a quick summary of what you did in the head. If possible, the logs should be made server-side.
-
-	BAD
-	```ruby
-	# 7/26/12 BW - Added a comma to the second sentence.
-	```
-	GOOD
-	```ruby
-	# 7/26/12 BW - CURL requests now use Facebook Open Graph API to pull Fanpage feeds. http://developers.facebook.com
-	```
+## write something about git commits
 
 ## What to do when you find a file without comments
 1. Breathe.
