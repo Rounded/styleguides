@@ -2,8 +2,8 @@
 
 ## Git Commits should:
 1. Be concise.
-2. Explain what was added or updated.
-3. Be added often.
+2. Be added often.
+3. Explain what was added or updated.
 4. Almost "tell a story" of what happened to a project.
 
 # Commenting
