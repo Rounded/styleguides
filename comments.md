@@ -8,11 +8,12 @@ If possible, the logs should be made server-side. The logs should be descriptive
 	```ruby
 	# 7/26/12 BW - Added a comma to the second sentence.
 	```
+
+
 	GOOD
 	```ruby
 	# 7/26/12 BW - CURL requests now use Facebook Open Graph API to pull Fanpage feeds. http://developers.facebook.com
-	  
-	  
+	```
 
 ## Comments should:
 1. Explain the code in "non-code" terms, and (if possible) what it's accomplishing in the grand scheme of things
