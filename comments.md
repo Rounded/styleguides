@@ -1,14 +1,13 @@
 # Commenting and Headers Logs
 
 ## Header Logs
-After any major changes are made to a file, please place a log of the date, your initials, and a quick summary of what you did in the head. 
-If possible, the logs should be made server-side. The logs should be descriptive of major changes only and optionally provide links to relevant resources.
+After any major changes are made to a file, place a log of the date, your initials, and a quick summary of what you did in the head. 
+If possible, the logs should be made server-side. The logs should only consist of major changes and optionally provide links to relevant resources.
 
 	BAD
 	```ruby
 	# 7/26/12 BW - Added a comma to the second sentence.
 	```
-
 
 	GOOD
 	```ruby
