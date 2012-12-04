@@ -1,8 +1,7 @@
 # Commenting and Headers Logs
 
 ## Header Logs
-After any major changes are made to a file, place a log of the date, your initials, and a quick summary of what you did in the head. 
-If possible, the logs should be made server-side. The logs should only consist of major changes and optionally provide links to relevant resources.
+1. After any major changes are made to a file, place a log of the date, your initials, and a quick summary of what you did in the head. If possible, the logs should be made server-side.
 
 BAD
 
