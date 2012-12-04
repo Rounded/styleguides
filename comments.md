@@ -1,6 +1,11 @@
-# Commenting and Git Commits
+# Git Commits
 
-## write something about git commits
+## Git Commits should:
+1. Be concise.
+2. Explain what was added or updated.
+3. Almost "tell a story" of what happened to a project.
+
+# Commenting
 
 ## What to do when you find a file without comments
 1. Breathe.
@@ -69,4 +74,5 @@
 
 ## Comments should NOT:
 1. Explain functions or methods that are part of the language and or framework
+	a. Except when adding in an external library. Comment on why it's being included and link to its documentation in the readme.
 2. Be lengthy or cumbersome to read.
