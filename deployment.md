@@ -9,7 +9,7 @@
 This is your local environment on your computer. You should have at least 3 branches locally. Master, staging and what ever feature or bug fix you are working on. To get started clone down the project from github. Make sure to clone both the staging and master branches. Next, branch off the staging branch to start working. Keep the name descriptive and concise. Usually a 2-3 word feature description will suffice. For example *blog-comments*. Once you're finished and the feature is stable, merge into the staging evironment, and push to the staging server for quality assurance testing. The easiest way to do this is:
 ```
 git merge blog-comments
-git push staging staging:master
+git push staging_branch staging:master
 ```
 
 ### Staging
