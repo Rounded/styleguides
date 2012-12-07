@@ -74,9 +74,10 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
 ## The Database
 The following is up for debate, but I believe it will solve **a lot** of problems when multiple people are working on one Wordpress install.
 
-1. Do **not** use local databases anymore. Head to media temple and create a database. This way all database changes will be consistent for each user who is working on a project.
+1. Do **not** use local databases anymore. If you create a page, or do something locally, it won't necessarily be reflected for all users.
+2. Head to media temple and create a database. This way all database changes will be consistent for each user who is working on a project.
 
-**Note:** This means that you won't be able to develop the site without an internet connection. But, honestly if you're a developer, you should have a connection.
+Note: This means that you won't be able to develop the site without an internet connection. But, honestly if you're a developer, you should have a connection.
 
 ## Understand the Template Hierarchy
 1. Read this entire document: http://codex.wordpress.org/Template_Hierarchy
@@ -88,7 +89,6 @@ The following is up for debate, but I believe it will solve **a lot** of problem
 1. Create all custom taxonomies and plugins in the ```wp-content/plugins``` folder. Do NOT put in the functions.php file or in the theme directory.
 
   This is done to ensure plugins and taxonomies work across multiple themes.
-2. Plugins should be unique but overtly obvious as to what they accomplish.
-3. Do not use underscores in filenames.
-4. Don't install bloatware plugins for clients. If it's something simple, consider building it yourself. If it's something complicated, customize their plugin to your needs.
-5. Don't use ```echo``` ever in a plugin file. Always return the data.
+2. Do not use underscores in filenames.
+3. Don't install bloatware plugins for clients. If it's something simple, consider building it yourself. If it's something complicated, customize their plugin to your needs.
+4. Don't use ```echo``` ever in a plugin file. Always return the data.
