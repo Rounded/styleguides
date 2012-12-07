@@ -41,8 +41,35 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
 
 
 ## wp-config.php file
-1. Don't fuck this file up.
-
+1. Don't mess this file up.
+2. Wrap the database connection details in an ```if``` statement so that there is difference between local and production. For example:
+  
+  ```php
+  if($_SERVER['HTTP_HOST']=='localhost:8888'){
+      define('DB_NAME', 'mirra');
+	  define('DB_USER', 'root');
+	  define('DB_PASSWORD', 'root');
+	  define('DB_HOST', 'localhost');
+	  define('DB_CHARSET', 'utf8');
+	  define('DB_COLLATE', '');
+  } else {
+	  define('DB_NAME', 'db118166_dbname');
+	  define('DB_USER', 'db118166_administrator');
+	  define('DB_PASSWORD', 'password123!');
+	  define('DB_HOST', 'internal-db.s118166.gridserver.com');
+	  define('DB_CHARSET', 'utf8');
+  	  define('DB_COLLATE', '');	
+  }
+  ```
+3. If it's a multi-site install, do the same thing:
+  ```php
+  if($_SERVER['HTTP_HOST']=='bitpressco.dev'){
+    define( 'DOMAIN_CURRENT_SITE', 'bitpressco.dev' );
+  } else {
+	  define( 'DOMAIN_CURRENT_SITE', 'bitpress.co' );
+  }
+  ```
+4. Once the database name and multi-site url has been established, try not to change it. It will mess things up for people pulling it down on Github.
 
 ## Plugins and Taxonomies
 1. Create all custom taxonomies and plugins in the ```wp-content/plugins``` folder. Do NOT put in the functions.php file or in the theme directory.
@@ -51,3 +78,4 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
 2. Plugins should be unique but overtly obvious as to what they accomplish.
 3. Do not use underscores in filenames.
 4. Don't install bloatware plugins for clients. If it's something simple, consider building it yourself. If it's something complicated, customize their plugin to your needs.
+5. Don't use ```echo``` ever in a plugin file. Always return the data.
