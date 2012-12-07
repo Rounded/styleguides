@@ -75,9 +75,8 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
 ## Understand the Template Hierarchy
 1. Read this entire document: http://codex.wordpress.org/Template_Hierarchy
 2. Make sure you understand what it means to override certain files. For example a general ```page.php``` will be overriden by ```page-about.php```
-	This means: don't make files like "_header.php" for two reasons:
-	1. It has an underscore, which is a no-no.
-	2. header.php is a reserved file for Wordpress and is best to be overriden, since you can call ```get_header();``` not duplicated by some other file.
+	This means: don't make files like "the_header.php" because:
+	1. header.php is a reserved file for Wordpress and is best to be overriden, since you can call ```get_header();``` not duplicated by some other file.
 
 ## Plugins and Taxonomies
 1. Create all custom taxonomies and plugins in the ```wp-content/plugins``` folder. Do NOT put in the functions.php file or in the theme directory.
