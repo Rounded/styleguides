@@ -71,6 +71,12 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
   ```
 4. Once the database name and multi-site url has been established, try not to change it. It will mess things up for people pulling it down on Github.
 
+## The Database
+The following is up for debate, but I believe it will solve **a lot** of problems when multiple people are working on one Wordpress install.
+
+1. Do **not** use local databases anymore. Head to media temple and create a database. This way all database changes will be consistent for each user who is working on a project.
+
+**Note:** This means that you won't be able to develop the site without an internet connection. But, honestly if you're a developer, you should have a connection.
 
 ## Understand the Template Hierarchy
 1. Read this entire document: http://codex.wordpress.org/Template_Hierarchy
