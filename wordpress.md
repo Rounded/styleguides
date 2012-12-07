@@ -18,7 +18,11 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
   
   Images should be in folder ```images``` (do not call it imgs, img)
 4. Use the ```style.css``` file found the in the wp-content folder as the primary CSS style sheet. Do NOT create an application.css file in the ```stylesheets``` folder.
+5. Keep filenames all lowercase and hyphenated.
 
+	GOOD: ```page-about-us.php```
+	
+	BAD: ```page-About_Us.php```
 
 ## OMG THERE'S AN ERROR. WTF?!
 1. There is a .htaccess file at the root of the Wordpress directory. The file should look something like this:
