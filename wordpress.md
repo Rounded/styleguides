@@ -24,7 +24,7 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
 	
 	BAD: ```page-About_Us.php```
 
-## OMG THERE'S AN ERROR. WTF?!
+## Oh no – there's an error!
 1. There is a .htaccess file at the root of the Wordpress directory. The file should look something like this:
   ```php
   # BEGIN WordPress   
