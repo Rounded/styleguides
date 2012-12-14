@@ -85,7 +85,7 @@ Note: This means that you won't be able to develop the site without an internet 
 ### How to Create a Database on Media Temple
 3. Head to "Manage Databases" on Media Temple https://ac.mediatemple.net/services/manage/grid/databases/index.mt?id=524593
 4. Click "Add a database" and enter the name. Make sure the name reflects which environment it's being used in.
-5. Click "Global Settings" and click on your user account. Give yourself read/write permission to the database.
+5. Click "Global Settings" and click the permissions button next to your user account. Give yourself read/write permission to the database.
 6. You can find database connection details here: https://ac.mediatemple.net/services/guide/gs/index.mt?id=524593
 
 
