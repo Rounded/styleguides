@@ -96,9 +96,9 @@ Note: This means that you won't be able to develop the site without an internet 
 	This means: don't make files like "the_header.php" because:
 	1. header.php is a reserved file for Wordpress and is best to be overriden. The function ```get_header();``` won't work when the file is called something different.
 
-## Plugins and Taxonomies
-1. Create all custom taxonomies and plugins in the ```wp-content/plugins``` folder. Do NOT put in the functions.php file or in the theme directory.
+## Plugins, Taxonomies, Custom Post Types
+1. Create all custom taxonomies, post-types, and plugins in the ```wp-content/plugins``` folder. Do NOT put in the functions.php file or in the theme directory.
 
-  This is done to ensure plugins and taxonomies work across multiple themes.
+  This is done to ensure plugins, taxonomies, and post-types work across multiple themes.
 2. Don't install bloatware plugins for clients. If it's something simple, consider building it yourself. If it's something complicated, customize their plugin to your needs.
 3. Don't use ```echo``` ever in a plugin file. Always return the data.
