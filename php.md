@@ -3,7 +3,7 @@
 This looks more like a wiki that a style guide. I'll think about changing this up...
 
 ## Inspecting variables
-You can't set breakpoints when debugging PHP code. But, you can inspect variables pretty easily. To get info on a variable use the following code:
+To get info on a variable use the following code:
 
   ```php
   <pre>
