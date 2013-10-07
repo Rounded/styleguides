@@ -23,6 +23,37 @@ Wordpress is very confusing, but here are some conventions that everyone must ab
 	GOOD: ```page-about-us.php```
 	
 	BAD: ```page-About_Us.php```
+6. Use page-home.php for the Home Page if you are going to override it.
+7. Use archive-slug.php for pages with custom post types.
+8. Use single-slug.php for individual custom post types.
+
+## Admin
+1. Page names on the back-end should be equivalent to the ones in the front-end. Obviously, this will change over time, but atleast for the beginning, keep 'em up to date!
+2. Slug should match the page name / only use hyphens!
+3. Pages are for PAGE content only. If it's an entity of some sort or something global, make it a custom post-type.
+4. Order the menu in the Admin area as Pages > Posts > Comments > Media > Custom Post Types
+
+## Advanced Custom Fields
+1. Naming conventions should be:
+	1. Custom Post Types (singular item) - [Name] Post, i.e. "Book Post"
+	2. Archive Pages - [Names] Archive, i.e. "Books Archive"
+	3. Single Pages - [Name] Page, i.e. "Book Page"
+	4. Generic Pages - [Name] Page
+	
+## Functions.php File
+1. Custom post types should be in plugins folder, not functions.php
+2. Custom Admin UI in a plugins folder called "custom-admin-ui-rounded"
+3. The functions.php file should be used more for global helpers / front end manipulation
+4. Never echo in functions.php, always return
+5. Put custom functions at the TOP of functions.php, and draw a line where everything below is generic WP garbage
+
+## Approved Plugins
+1. Advanced Custom Fields
+2. Contact Form 7 + Dynamic Text Extension
+3. Members (Role editing)
+4. The Events Calendar
+5. Simple Local Avatars
+6. Post Types Order
 
 ## Oh no – there's an error!
 1. There is a .htaccess file at the root of the Wordpress directory. The file should look something like this:
