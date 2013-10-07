@@ -29,4 +29,4 @@ git push origin staging
 ```
 
 ### Bitbucket
-Bitbucket is where projects go to sleep. Once a project is wrapped up, we don't want it clogging up the repo list on github. We don't want to just delete it either. We're always going back to reference old code or help out clients when needed. Bitbucket provides us an archive where we can store these projects. See Eric Candino when your project is ready to be transfered. 
+Bitbucket is where projects go to sleep. Once a project is wrapped up, we don't want it clogging up the repo list on github. We don't want to just delete it either. We're always going back to reference old code or help out clients when needed. Bitbucket provides us an archive where we can store these projects. See Brian Weinreich when your project is ready to go to bed.
