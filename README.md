@@ -6,3 +6,4 @@
 - [Ruby Styleguide](https://github.com/Rounded/styleguides/blob/master/ruby.md)
 - [PHP Styleguide](https://github.com/Rounded/styleguides/blob/master/php.md)
 - [Wordpress Styleguide](https://github.com/Rounded/styleguides/blob/master/wordpress.md)
+- [HTML & CSS](http://codeguide.co/) - Code Guide by @mdo
